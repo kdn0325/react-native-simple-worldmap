@@ -1,12 +1,10 @@
-import { multiply } from 'react-native-simple-worldmap';
-import { Text, View, StyleSheet } from 'react-native';
-
-const result = multiply(3, 7);
+import { WorldMap } from 'react-native-simple-worldmap';
+import { View, StyleSheet } from 'react-native';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Result: {result}</Text>
+      <WorldMap />
     </View>
   );
 }
