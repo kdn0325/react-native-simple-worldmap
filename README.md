@@ -2,6 +2,8 @@
 
 This is SVG's Simple Map that makes React Native
 
+![Example](https://github.com/user-attachments/assets/006398fd-4da2-4005-ba58-a810302a8274)
+
 ## Installation
 
 ```sh
