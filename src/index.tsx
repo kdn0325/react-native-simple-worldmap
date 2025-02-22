@@ -11,7 +11,7 @@ type WorldMapProps = {
 
 export function WorldMap({
   color = '#D0D2D3',
-  isSelectable = true,
+  isSelectable = false,
   selectedColor = '#9270FF',
   countries = [],
   ...props
@@ -218,7 +218,6 @@ export function WorldMap({
     if (isSelectable) {
       setFillColors((prevColors) => {
         const currentColor = prevColors[countryId];
-        // 현재 색상이 선택된 색상이라면 원래 색상으로 변경, 아니면 선택된 색상으로 변경
         const newColor = currentColor === selectedColor ? color : selectedColor;
         return {
           ...prevColors,
