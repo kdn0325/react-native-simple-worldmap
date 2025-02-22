@@ -2,7 +2,9 @@
 
 This is SVG's Simple Map that makes React Native
 
-![Example](https://github.com/user-attachments/assets/006398fd-4da2-4005-ba58-a810302a8274)
+<video width="500" height="500" autoplay>
+  <source src="https://github.com/user-attachments/assets/54e27209-e06a-4590-ad95-1f5eba5cf013" type="video/mp4">
+</video>
 
 ## Installation
 
