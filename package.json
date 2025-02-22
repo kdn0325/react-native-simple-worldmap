@@ -1,6 +1,6 @@
 {
   "name": "react-native-simple-worldmap",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "This is SVG's Simple Map that makes React Native",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
@@ -185,6 +185,6 @@
     "version": "0.47.0"
   },
   "dependencies": {
-    "react-native-svg": "^15.11.1"
+    "react-native-svg": "latest"
   }
 }
