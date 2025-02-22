@@ -207,11 +207,14 @@ export function WorldMap({
 
   useEffect(() => {
     if (countries.length > 0) {
-      const updatedColors = { ...fillColors };
-      countries.forEach((countryId) => {
-        updatedColors[countryId] = selectedColor;
+      setFillColors((prevColors) => {
+        const updatedColors = { ...prevColors };
+        countries.forEach((countryId) => {
+          updatedColors[countryId] = selectedColor;
+        });
+
+        return updatedColors;
       });
-      setFillColors(updatedColors);
     }
   }, [countries, selectedColor]);
 
