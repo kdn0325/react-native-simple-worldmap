@@ -13,7 +13,7 @@ type WorldMapProps = {
 
 export function WorldMap({
   color = '#D0D2D3',
-  isSelectable = true,
+  isSelectable = false,
   selectedColor = '#9270FF',
   countries = [],
   ...props
