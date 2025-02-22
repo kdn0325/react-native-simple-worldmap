@@ -219,7 +219,6 @@ export function WorldMap({
   }, [countries, selectedColor]);
 
   const handleCountryClick = (countryId: string) => {
-    console.log('countryId', countryId);
     if (isSelectable) {
       setFillColors((prevColors) => {
         const currentColor = prevColors[countryId];
