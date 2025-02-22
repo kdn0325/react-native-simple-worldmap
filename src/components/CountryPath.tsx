@@ -1,5 +1,3 @@
-// src/components/CountryPath.tsx
-
 import React, { useRef } from 'react';
 import { PanResponder } from 'react-native';
 import { Path } from 'react-native-svg';
