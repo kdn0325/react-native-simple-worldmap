@@ -20,7 +20,7 @@ const CountryG: React.FC<CountryProps> = ({
   const panResponder = useRef(
     PanResponder.create({
       onStartShouldSetPanResponder: () => true,
-      onPanResponderGrant: (e, gestureState) => {
+      onPanResponderGrant: () => {
         handleCountryClick(id);
       },
     })
