@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Dimensions } from 'react-native';
-import Svg, { Path } from 'react-native-svg';
+import Svg, { G, Path } from 'react-native-svg';
 import CountryG from './components/CountryG';
 import CountryPath from './components/CountryPath';
 
@@ -241,7 +241,7 @@ export function WorldMap({
       viewBox="0 0 900 900"
       {...props}
     >
-      <CountryG>
+      <G>
         <CountryPath
           id="AE"
           handleCountryClick={handleCountryClick}
@@ -1488,7 +1488,7 @@ export function WorldMap({
           fill={fillColors.ZW}
           d="M468.52,578.226l7.755,8.757l5.946,1.513l3.984-6.248l-0.312-8.281l-6.465-3.337l-2.431,1.098l-3.62,5.524l-5.014-0.053L468.52,578.226L468.52,578.226z"
         />
-      </CountryG>
+      </G>
     </Svg>
   );
 }
