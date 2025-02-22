@@ -12,6 +12,15 @@ npm install react-native-simple-worldmap
 yarn add react-native-simple-worldmap
 ```
 
+## Note: Please make sure to install the latest version of react-native-svg.
+
+```sh
+npm install react-native-svg@latest
+# or
+yarn add react-native-svg@latest
+
+```
+
 ## Usage
 
 ```js
